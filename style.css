@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding-top: 550px;
+   text-align: center;
+}
+
+.foto {
+    width: 250px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#5fe4fe 0%,#00fe2b 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+#bio {
+    font-family: 'Dancing Script', cursive;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.parallax-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu {
+    margin-top: 0%;
+    width: 100%;
+    background: white;
+    position: fixed;
+    z-index: 10;
+    list-style: none;
+    top: 0px;
+    cursor: pointer;
+}
+
+.links {
+
+    display: inline;
+    float: left;
+    padding-top: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#writings a {
+    text-decoration: underline !important;
+    color: green !important;
+}
+
+#contact {
+    background: lightgray;
+}
